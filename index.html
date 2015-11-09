@@ -6,42 +6,48 @@
     <title>Geekwise-flexbox-nesting</title>
 </head>
 <body>
+    <!--left side-->
     <section class='column'>
         <h1>top</h1>
-        <div class='dice'>
-            <span class='dot, left, top' dot='one'></span>
+        <div class='dice left'>
+            <span class='dot top' dot='one'></span>
         </div>
-        <div class='dice'>
-            <span class='dot, center, top' dot='two'></span>
+        <div class='dice middle'>
+            <span class='dot top' dot='two'></span>
         </div>
-        <div class='dice'>
-            <span class='dot, right, top' dot='three'></span>
+        <div class='dice right'>
+            <span class='dot top' dot='three'></span>
         </div>
     </section>
-    
+    <!--middle-->
     <section class='column'>
         <h1>middle</h1>
-        <div class='dice'>
-            <span class='dot, left, middle' dot='four'></span>
+        <div class='dice left'>
+            <span class='dot center' dot='four'></span>
         </div>
-        <div class='dice'>
-            <span class='dot, center, middle' dot='five'></span>
+        <div class='dice middle'>
+            <span class='dot center' dot='five'></span>
         </div>
-        <div class='dice'>
-            <span class='dot, right, middle' dot='six'></span>
+        <div class='dice right'>
+            <span class='dot center' dot='six'></span>
         </div>
+        <div id='link'>
+        <p>
+            <a href='horizontal.html'>Horizontal</a>
+        </p>
+    </div>
     </section>
-    
+    <!--right side-->
     <section class='column'>
         <h1>bottom</h1>
-        <div class='dice'>
-            <span class='dot, left, bottom' dot='seven'></span>
+        <div class='dice left'>
+            <span class='dot bottom' dot='seven'></span>
         </div>
-        <div class='dice'>
-            <span class='dot, center, bottom' dot='eight'></span>
+        <div class='dice middle'>
+            <span class='dot bottom' dot='eight'></span>
         </div>
-        <div class='dice'>
-            <span class='dot, right, bottom' dot='nine'></span>
+        <div class='dice right'>
+            <span class='dot bottom' dot='nine'></span>
         </div>
     </section>
 </body>

@@ -16,6 +16,7 @@ html, body{
 
 .column{
     height:100%;
+    width:calc(100%/3);
     
     display:flex;
     justify-content:space-around;
@@ -25,11 +26,16 @@ html, body{
     background-color:maroon;
 }
 
+section > h1{
+    text-align:center;
+}
+
 .dice{
     width:10rem;
     height:10rem;
     
     display:flex;
+    align-self:center;
     
     flex-direction:row;
 
@@ -42,11 +48,22 @@ html, body{
     
 }
 
+.dot{
+    width:1.5rem;
+    height:1.5rem;
+    margin:15px;
+    border-radius:1.5em;
+    
+    background-color:black;
+    
+    display:flex;
+}
+
 .left{
     justify-content:flex-start; 
 }
 
-.center{
+.middle{
     justify-content:center;
 }
 
@@ -55,23 +72,27 @@ html, body{
 }
 
 .top{
-    align-content:flex-start;
+    align-self:flex-start;
 }
 
-.middle{
-    align-content:center;
+.center{
+    align-self:center;
 }
 
 .bottom{
-    align-content:flex-end;
+    align-self:flex-end;
 }
 
-.dot{
-    width:1em;
-    height:1em;
+#link{
+    width:100%;
     
-    background-color:black;
+    background-color:moroon;
     
-    display:flex;
-    flex-grow:1;
+    text-align:center;
+    
+    float:left;
+}
+
+a{
+    color:gold;
 }
